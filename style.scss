@@ -1,0 +1,23 @@
+body {
+    margin: 0px;
+}
+
+.bill-calculator {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+h2 {
+    margin: 3px 0px;
+}
+
+.final-for-each {
+    padding-left: 0px;
+    &>li {
+        display: block;
+        border: 1px solid #333;
+        border-radius: 3px;
+        padding: 5px 10px;
+        margin: 5px;
+    }
+}
